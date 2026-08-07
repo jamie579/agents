@@ -1,0 +1,172 @@
+[
+  {
+    "name": "academic-article-architect",
+    "description": "Planning orchestrator for academic manuscripts: assesses the material, settles paper type and target journal, and returns a Section Brief Package (SBP) that guides the section-writer agents. ASSESS and STRUCTURE phases only; also scopes revisions from reviewer comments into targeted section briefs. Not for drafting (section writers) or reviewing existing text (QA agents).",
+    "raw_url": "https://raw.githubusercontent.com/jamie579/agents/main/academic-article-architect.md"
+  },
+  {
+    "name": "academic-librarian",
+    "description": "Full academic information-retrieval pipeline: research question refinement (PICO/PICo/SPIDER/PCC), review-type and database selection advice, Boolean strategy design with controlled vocabulary (MeSH/CINAHL/EMTREE), PRESS audits of existing strategies, search execution via PubMed/bioRxiv MCP and web, full-text retrieval, grey literature, citation chaining, de-duplication, and filing an organised corpus into the project workspace. Also troubleshoots strategies returning too many or too few results.",
+    "raw_url": "https://raw.githubusercontent.com/jamie579/agents/main/academic-librarian.md"
+  },
+  {
+    "name": "anonymity-ethics-checker",
+    "description": "Checks manuscripts for participant-identifying information, pseudonym consistency, and ethics/consent statement compliance; especially for small-sample qualitative research and German institutional data.",
+    "raw_url": "https://raw.githubusercontent.com/jamie579/agents/main/anonymity-ethics-checker.md"
+  },
+  {
+    "name": "apa7-formatter",
+    "description": "APA 7th edition specialist, two modes: (1) check or fix APA 7 compliance in text (headings, citations, references, tables, title pages, abstracts) and convert from other citation styles; (2) produce a properly formatted .docx from a .md/.txt manuscript (fonts, spacing, margins, running head, heading levels, page numbers). For any non-APA target use submission-formatter.",
+    "raw_url": "https://raw.githubusercontent.com/jamie579/agents/main/apa7-formatter.md"
+  },
+  {
+    "name": "article-gate-checker",
+    "description": "Quality-gate auditor for manuscript sections or the integrated manuscript: checks compliance with the Section Brief, voice standards, reporting-guideline coverage, and cross-section consistency; returns a structured pass/fail gate report. Can run targeted checks (voice only, consistency only).",
+    "raw_url": "https://raw.githubusercontent.com/jamie579/agents/main/article-gate-checker.md"
+  },
+  {
+    "name": "article-integrator",
+    "description": "Combines drafted, gate-checked sections into a coherent manuscript: writes transitions, abstract, and title; harmonises terminology, numbers, and argument flow. Launch with all section drafts plus the full SBP; re-invoke after revisions to re-stitch and re-audit consistency.",
+    "raw_url": "https://raw.githubusercontent.com/jamie579/agents/main/article-integrator.md"
+  },
+  {
+    "name": "article-troubleshooter",
+    "description": "Diagnoses blocked manuscript workflows: failed gate checks, undraftable sections, cross-section contradictions, or mid-workflow restructuring. Traces the root cause, recommends the minimum recovery intervention, and scopes backtracks (which sections are invalidated, which survive).",
+    "raw_url": "https://raw.githubusercontent.com/jamie579/agents/main/article-troubleshooter.md"
+  },
+  {
+    "name": "article-writer-conclusion",
+    "description": "Drafts Conclusion, Implications, or Recommendations sections from a section brief plus the discussion draft. Deliberately modest: restates the contribution without inflation, treats limitations as epistemic conditions, opens questions rather than closing them; writes concrete recommendations for policy papers. All paper types; Jamie's voice.",
+    "raw_url": "https://raw.githubusercontent.com/jamie579/agents/main/article-writer-conclusion.md"
+  },
+  {
+    "name": "article-writer-discussion",
+    "description": "Drafts the Discussion section from a section brief plus findings and introduction drafts: interprets findings against the literature, explores mechanisms, handles strengths, limitations, and implications; never repeats results. For theoretical papers, articulates the conceptual contribution. All paper types; Jamie's voice.",
+    "raw_url": "https://raw.githubusercontent.com/jamie579/agents/main/article-writer-discussion.md"
+  },
+  {
+    "name": "article-writer-findings",
+    "description": "Drafts Findings/Results/Analysis sections from a section brief plus the actual data: qualitative themes with data-theory weaving, quantitative results presented descriptively with text-table-figure coordination, mixed-methods strands, conceptual analysis outcomes, or review synthesis. Jamie's voice.",
+    "raw_url": "https://raw.githubusercontent.com/jamie579/agents/main/article-writer-findings.md"
+  },
+  {
+    "name": "article-writer-introduction",
+    "description": "Drafts Introduction or Background sections from the architect's section brief, adapting to paper type: literature funnel for empirical papers, opening tension for theoretical ones. Pass summaries of already-drafted sections where the cross-reference map calls for them. Jamie's voice.",
+    "raw_url": "https://raw.githubusercontent.com/jamie579/agents/main/article-writer-introduction.md"
+  },
+  {
+    "name": "article-writer-literature-review",
+    "description": "Drafts standalone Literature Review, Background, or Theoretical Framework sections, and the conceptual core sections of theoretical/non-IMRaD papers; synthesises rather than summarises, every paragraph doing analytical work. NOT for empirical introductions (use article-writer-introduction). Jamie's voice.",
+    "raw_url": "https://raw.githubusercontent.com/jamie579/agents/main/article-writer-literature-review.md"
+  },
+  {
+    "name": "article-writer-methods",
+    "description": "Drafts Methods/Methodology sections from a section brief: qualitative (philosophical positioning, methodology, data generation, analysis, quality criteria), quantitative (design through analysis plan, structured per STROBE/CONSORT as applicable), mixed, theoretical (approach to inquiry), or review (search, screening, synthesis). Jamie's voice.",
+    "raw_url": "https://raw.githubusercontent.com/jamie579/agents/main/article-writer-methods.md"
+  },
+  {
+    "name": "cruel-editor",
+    "description": "Merciless editor of academic prose: strips filler, challenges every claim, rates every paragraph, finds repetition, checks logical flow, enforces the banned LLM-pattern list, and identifies cuts to hit word limits. Harshest editor imaginable; always specific, always constructive.",
+    "raw_url": "https://raw.githubusercontent.com/jamie579/agents/main/cruel-editor.md"
+  },
+  {
+    "name": "data-integrity-auditor",
+    "description": "End-to-end data integrity audit from raw data and codebook through analysis code to manuscript: response-scale handling, reverse-coding, score construction, recoding and transformations, PRISMA arithmetic, and numerical consistency across code, outputs, tables, and text.",
+    "raw_url": "https://raw.githubusercontent.com/jamie579/agents/main/data-integrity-auditor.md"
+  },
+  {
+    "name": "dfg-eigene-stelle-swarm",
+    "description": "Produces and revises DFG proposals, especially with the Eigene Stelle module: project description, CV/publication lists, budget narrative, employer statement drafts, attachment checklists, and elan compliance verification; includes a red-team DFG reviewer mode for critiquing existing drafts.",
+    "raw_url": "https://raw.githubusercontent.com/jamie579/agents/main/dfg-eigene-stelle-swarm.md"
+  },
+  {
+    "name": "evidence-synthesis-researcher",
+    "description": "Systematic review and evidence-synthesis workhorse: review structuring, inclusion/exclusion criteria, screening, data extraction, evidence tables, risk-of-bias assessment (RoB 2, ROBINS-I), synthesis, PRISMA flow diagrams, and status summaries of a review workspace.",
+    "raw_url": "https://raw.githubusercontent.com/jamie579/agents/main/evidence-synthesis-researcher.md"
+  },
+  {
+    "name": "file-secretary",
+    "description": "Archivist and meticulous secretary for file work: renames files from contents and metadata, builds numbered folder hierarchies, archives stale versions and duplicates with datestamps, and keeps whole project workspaces in order. Launch with the target path.",
+    "raw_url": "https://raw.githubusercontent.com/jamie579/agents/main/file-secretary.md"
+  },
+  {
+    "name": "grant-reviewer",
+    "description": "Brutal simulated grant panel for any funder: three reviewers from different disciplinary perspectives score against the funder's actual assessment criteria. Judges FUNDABILITY (track record, feasibility, budget justification, environment, risk), not just scientific quality; finds every weakness a hostile panel member would exploit.",
+    "raw_url": "https://raw.githubusercontent.com/jamie579/agents/main/grant-reviewer.md"
+  },
+  {
+    "name": "jdr-harmoniser",
+    "description": "Harmonises Job Demands-Resources category labels and construct names in systematic-review extraction data: maps messy free-text labels to a standardised Bakker and Demerouti taxonomy, reading from the extraction SQLite database; proposes the mapping, then applies it (or runs audit-only to preview).",
+    "raw_url": "https://raw.githubusercontent.com/jamie579/agents/main/jdr-harmoniser.md"
+  },
+  {
+    "name": "journal-format-checker",
+    "description": "Checks a manuscript against a specific journal's submission guidelines: word limits, heading hierarchy, reference format, abstract structure, figure/table formatting, and reporting-guideline compliance (PRISMA, COREQ, etc.); generates pre-submission checklists.",
+    "raw_url": "https://raw.githubusercontent.com/jamie579/agents/main/journal-format-checker.md"
+  },
+  {
+    "name": "llm-prose-decontaminator",
+    "description": "Forensically detects and rewrites LLM-generated prose patterns to Jamie's authentic academic voice. Use on drafted sections (proactively, before gate-checking), co-authored text that reads like ChatGPT, or in audit-only mode to assess voice authenticity without rewriting.",
+    "raw_url": "https://raw.githubusercontent.com/jamie579/agents/main/llm-prose-decontaminator.md"
+  },
+  {
+    "name": "logic-focus-auditor",
+    "description": "Audits logical coherence and focus: maps argument chains, catches fallacies and unsupported leaps, flags scope creep and tangents, checks conclusions follow from findings, and verifies the paper answers its own research question.",
+    "raw_url": "https://raw.githubusercontent.com/jamie579/agents/main/logic-focus-auditor.md"
+  },
+  {
+    "name": "methodology-congruence-checker",
+    "description": "Verifies a manuscript's methodology is congruent with the methodological literature it cites and internally consistent: ontology-epistemology-methodology alignment, method descriptions matched against their source literature, analytical approach fit to the research question, and contradictions between theoretical framework and methods used. Especially for qualitative, theoretical, and philosophically committed research.",
+    "raw_url": "https://raw.githubusercontent.com/jamie579/agents/main/methodology-congruence-checker.md"
+  },
+  {
+    "name": "peer-review-writer",
+    "description": "Drafts Jamie's reviewer reports on OTHER people's manuscripts (invited journal reviews, including round-2 re-reviews): affirmative, developmental, in his voice. Confidentiality built in: reads local disk only, no web/MCP/cloud-synced folders, workspace under ~/PeerReview_Local_NoCloud/. NOT for Jamie's own manuscripts (peer-reviewer-simulator) or for editing his prose (cruel-editor).",
+    "raw_url": "https://raw.githubusercontent.com/jamie579/agents/main/peer-review-writer.md"
+  },
+  {
+    "name": "peer-reviewer-simulator",
+    "description": "Simulated peer review of Jamie's own manuscript for a named journal: evaluates the WORK (novelty, significance, methodology, ethics), produces structured reviews from multiple reviewer perspectives, anticipates likely objections, and gives a recommendation.",
+    "raw_url": "https://raw.githubusercontent.com/jamie579/agents/main/peer-reviewer-simulator.md"
+  },
+  {
+    "name": "posthumanist-theory-interlocutor",
+    "description": "Theoretical engagement and sparring around critical posthumanism, feminist new materialism, and adjacent traditions (Deleuze/Guattari, Foucault, STS, decolonial, abolitionist, Black feminist, queer/crip theory) as they bear on nursing, clinical work, health workforce research, and health policy. Four modes: AUDITOR (humanist drift, decorative theory, fidelity to cited thinkers), SPARRING PARTNER (test arguments, surface tensions), DIAGNOSTICIAN (which framework fits a project), PEDAGOGUE (explain and situate concepts). Opinionated, not neutral.",
+    "raw_url": "https://raw.githubusercontent.com/jamie579/agents/main/posthumanist-theory-interlocutor.md"
+  },
+  {
+    "name": "q1-sr-finisher",
+    "description": "Final-stage benchmarking of a systematic review or other evidence synthesis against Q1 journal standards before submission: audits structural moves against canonical patterns (PRISMA 2020, AMSTAR-2, JBI, GRADE/CERQual, MOOSE, ENTREQ, PRISMA-NMA, PRISMA-ScR, RAMESES), checks end-to-end logical coherence, and orchestrates the QA constellation. Audits, gates, and orchestrates; does NOT draft prose. Complements evidence-synthesis-researcher, which handles the upstream pipeline.",
+    "raw_url": "https://raw.githubusercontent.com/jamie579/agents/main/q1-sr-finisher.md"
+  },
+  {
+    "name": "reference-verifier",
+    "description": "Verifies manuscript references and citations: existence checks against PubMed/DOI/web, detection of hallucinated DOIs and fabricated authors, claim-source agreement, in-text-to-reference-list matching, and reference formatting.",
+    "raw_url": "https://raw.githubusercontent.com/jamie579/agents/main/reference-verifier.md"
+  },
+  {
+    "name": "sr-delta-screener",
+    "description": "Screens a prepared queue of systematic-review records (title/abstract, then full text) against an explicit eligibility rubric on a screening-harness directory (packs/<id>.md + work/screening_queue.jsonl + SCREENING_RUBRIC.md), such as the PflegeStressPlan search-update harness. Recommends INCLUDE/EXCLUDE/UNSURE/NEEDS_FULLTEXT per criterion with a verbatim supporting quote; acts as screener-2/pre-screen and never silently includes. Invoke with the run directory path and optional batch size.",
+    "raw_url": "https://raw.githubusercontent.com/jamie579/agents/main/sr-delta-screener.md"
+  },
+  {
+    "name": "statistical-reviewer",
+    "description": "Audits statistical claims in manuscripts: p-values, effect sizes, confidence intervals, sample sizes, test selection against data characteristics, precision of statistical language, and numerical consistency across abstract, text, and tables.",
+    "raw_url": "https://raw.githubusercontent.com/jamie579/agents/main/statistical-reviewer.md"
+  },
+  {
+    "name": "stats-code-decontaminator",
+    "description": "Cleans LLM tells out of statistical and analytical scripts (R, Python, SPSS, SAS, Stata) so they read expert-authored: restyles comments, naming, structure, and documentation while preserving the statistical logic exactly. Use proactively on any LLM-generated analysis script before it enters the research workflow or supplementary materials.",
+    "raw_url": "https://raw.githubusercontent.com/jamie579/agents/main/stats-code-decontaminator.md"
+  },
+  {
+    "name": "submission-formatter",
+    "description": "Formats any text for any named submission target (journal, publisher, funder, conference): researches the target's requirements live, then checks and fixes text compliance and/or produces a formatted .docx. Handles any citation style; asks for the target if none is given. (APA 7 has its own dedicated agent, apa7-formatter.)",
+    "raw_url": "https://raw.githubusercontent.com/jamie579/agents/main/submission-formatter.md"
+  },
+  {
+    "name": "translation-back-checker",
+    "description": "Verifies German-to-English translations in manuscripts: quote accuracy and nuance, appropriate glossing of German institutional terms for international audiences, and adequacy of the translation-methodology description. Specialised for the Charité/German academic context.",
+    "raw_url": "https://raw.githubusercontent.com/jamie579/agents/main/translation-back-checker.md"
+  }
+]
