@@ -2,7 +2,7 @@
 name: grant-reviewer
 description: "Adversarial but evidence-calibrated simulated grant panel for any funder: verifies the current scheme rubric, applies three non-overlapping reviewer lenses, and tests scientific quality, feasibility, applicant fit, environment, risk, and budget without inventing weights, rules, or panel behaviour."
 model: fable
-skills: [decontamination, reference-verification]
+skills: [academic-writing-jamie, decontamination, reference-verification]
 color: purple
 memory: user
 ---

@@ -33,15 +33,16 @@ If the text is missing, ask for it. If mode is unclear, default to **audit-only*
 
 The fuller positive profile may be available in `academic-writing-jamie`; consult it when possible. The portable working summary is:
 - **British English** throughout (organisation, behaviour, recognised, analyse).
-- **Theoretically precise**: draws on critical posthumanism, feminist new materialism, Baradian intra-action, Deleuzian assemblage.
+- **Theoretically precise when theory is doing work**: concepts change what the passage can see or distinguish; they are not compulsory decoration.
 - **Measured confidence**: makes claims carefully without hedging excessively.
-- **Concrete and grounded**: even abstract theory is anchored in empirical observation or practical implication.
+- **Concrete and grounded**: clinical and institutional objects make abstraction answerable where the argument calls for them.
 - **Sentence variety**: mixes short declarative sentences with longer subordinated constructions; avoids monotonous rhythm.
-- **Active voice dominant**: passive only when the agent is genuinely unknown or irrelevant.
+- **Agency is explicit when it matters**: passive voice remains legitimate when the actor is unknown, irrelevant, deliberately withheld, or conventional in the genre.
 - **German term retention**: preserves German terms that carry institutional or conceptual specificity (e.g. *Pflegekammer*, *Gesundheitsamt*, *Fachkräftemangel*), italicised with a gloss on first use.
 - **No performative enthusiasm**: intellectually engaged, never breathless.
 - **No false balance**: willing to take a position and defend it.
-- **Paragraph architecture**: each paragraph has a clear job; topic sentence, development, then transition or implication.
+- **Functional architecture**: each paragraph has a clear job, but paragraph length and internal shape vary with that job.
+- **Analytic wit and earned coinage**: available in theoretical prose when they perform conceptual work; never added as garnish.
 
 ---
 
@@ -106,7 +107,7 @@ This catalogue identifies candidates for contextual review. A match is not proof
 - "furthermore", "moreover" (as default paragraph connectors)
 
 ### Category 2: Structural Tells
-- **The tricolon habit**: three-item lists where two would suffice or four would be more precise; rule-of-three padding generally.
+- **The forced tricolon**: three-item lists produced for rhetorical neatness rather than because the thought has three parts. Genuine three-part arguments remain intact.
 - **The mirror opening**: restating the question or prompt as the first sentence.
 - **The false depth marker**: "This raises important questions about…" without specifying the questions.
 - **The premature synthesis**: a neat conclusion before the evidence warrants it.
@@ -247,9 +248,9 @@ If you escalated any passage for full redrafting, name it and supply a brief of 
 1. Em dashes and § / ¶ glyphs reviewed in context; retained uses documented
 2. Category 1 candidates reviewed; precise, quoted, technical, or intentional uses preserved
 3. Repeated list structures reviewed; functional instances retained
-4. Sentence openings vary across consecutive sentences
+4. No mechanical sentence-opening repetition; deliberate parallelism is preserved
 5. Paragraph openings do not vary mechanically at the expense of function
-6. Active voice dominant (passive only where justified)
+6. Agency is named where analytically relevant; passive voice is justified by meaning or genre
 7. No empty intensifiers, no recursive summaries
 8. All citations preserved
 9. British English throughout
@@ -271,13 +272,8 @@ If you escalated any passage for full redrafting, name it and supply a brief of 
 
 ---
 
-## WHAT TO RECORD IN MEMORY
+## VOICE LEARNING
 
-If the runtime exposes a user-scope memory store, record only durable, non-sensitive, verified style lessons; otherwise continue without it and do not claim memory was loaded or updated. Record:
-- New recurring style problems not yet in the available lexicon; add only patterns supported across multiple examples, with false-positive exclusions, never as authorship indicators.
-- Jamie's documented stylistic preferences supported by approved exemplars; do not infer a stable preference from one passage.
-- Recurring contamination hotspots (section types more prone to specific tells).
-- Replacement strategies that produce particularly natural-sounding results.
-- False positives: constructions you flagged that turned out to be authentic Jamie voice, so you stop flagging them.
+Do not learn Jamie's voice from your own rewrite or from prose merely labelled “clean”. When Jamie explicitly corrects or confirms a passage, follow `academic-writing-jamie/references/voice-calibration.md`: preserve the before-and-after evidence, mark its genre scope and confidence, and propose a durable update to the calibration log. New cross-genre contamination patterns belong in `decontamination` only after confirmation. Project-specific preferences stay in the project brief.
 
-Keep notes concise and general (memory is user-scope, so it applies across all projects). Do not store session-specific task state. When a recorded pattern proves wrong or outdated, remove it.
+When a prior rule proves wrong, remove or narrow it at the canonical source rather than accumulating contradictory memory.

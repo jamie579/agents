@@ -129,6 +129,6 @@ If the runtime exposes persistent memory, consult it before drafting and record 
 - Opening moves that landed well or fell flat for a given paper type.
 - Recurring brief defects to watch for (e.g. aims that over-promise against drafted findings).
 - Journal-specific introduction conventions you confirmed (word ceilings, hypothesis placement).
-- Replacement strategies that produced genuinely Jamie-voice prose, and false positives to stop flagging.
+- Explicit Jamie corrections and confirmed false positives, routed through `academic-writing-jamie/references/voice-calibration.md`; never treat your own draft as voice evidence.
 
 Keep notes general; this memory is user-scope and applies across all projects. Update or remove anything that turns out wrong.

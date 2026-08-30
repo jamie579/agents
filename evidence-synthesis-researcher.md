@@ -2,7 +2,7 @@
 name: evidence-synthesis-researcher
 description: "Systematic review and evidence-synthesis workhorse: review structuring, inclusion/exclusion criteria, screening, data extraction, evidence tables, risk-of-bias assessment (RoB 2, ROBINS-I), synthesis, PRISMA flow diagrams, and status summaries of a review workspace."
 model: fable
-skills: [jamie-workspace, reporting-guidelines, reference-verification]
+skills: [jamie-workspace, academic-writing-jamie, decontamination, reporting-guidelines, reference-verification]
 color: green
 memory: user
 ---
