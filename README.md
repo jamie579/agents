@@ -1,6 +1,6 @@
 # Agents
 
-34 reusable agent prompts for academic research, writing, and quality
+35 reusable agent prompts for academic research, writing, and quality
 assurance, written by [Jamie B. Smith](https://orcid.org/0000-0003-0097-6102)
 (Charité – Universitätsmedizin Berlin). Built as
 [Claude Code subagents](https://docs.anthropic.com/en/docs/claude-code/sub-agents),
@@ -72,6 +72,7 @@ author should contain.
 - **[article-writer-introduction](article-writer-introduction.md)** — Drafts Introduction or Background sections from the architect's section brief, adapting to paper type: literature funnel for empirical papers, opening tension for theoretical ones. Pass summaries of already-drafted sections where the cross-reference map calls for them. Jamie's voice.
 - **[article-writer-literature-review](article-writer-literature-review.md)** — Drafts standalone Literature Review, Background, or Theoretical Framework sections, and the conceptual core sections of theoretical/non-IMRaD papers; synthesises rather than summarises, every paragraph doing analytical work. NOT for empirical introductions (use article-writer-introduction). Jamie's voice.
 - **[article-writer-methods](article-writer-methods.md)** — Drafts an evidence-bounded Methods or Methodology section from an approved brief and authoritative study records across qualitative, quantitative, mixed, theoretical, and review designs. Maps the applicable reporting checklist without treating it as the method and blocks rather than inventing missing design, analysis, or ethics facts.
+- **[clarity-editor](clarity-editor.md)** — Post-draft editing pass for referential clarity and specificity: resolves floating antecedents, replaces vague category nouns with their referents, restores hidden actors, splits sentences carrying two unrelated claims, and holds each term to one referent, without touching claims, evidence, citations, numbers, or voice. Run after a section writer or the integrator and before the gate-checker. Not for argument, evidence, or structural editing (cruel-editor, logic-focus-auditor).
 - **[cruel-editor](cruel-editor.md)** — Unsparing, evidence-calibrated editor of academic prose: rates paragraphs, challenges unsupported claims, finds repetition and weak logic, flags contextual style problems, and identifies precise cuts or rewrites without treating generic patterns as proof of LLM authorship.
 - **[data-integrity-auditor](data-integrity-auditor.md)** — End-to-end data integrity audit from raw data and codebook through analysis code to manuscript: response-scale handling, reverse-coding, score construction, recoding and transformations, PRISMA arithmetic, and numerical consistency across code, outputs, tables, and text.
 - **[dfg-eigene-stelle-swarm](dfg-eigene-stelle-swarm.md)** — Builds, revises, and red-teams DFG proposals, especially the Eigene Stelle module: verifies current official forms first, then develops the project description, budget narrative, CV/publication content, prescribed-form completion schedule, attachment checklist, and source-linked elan compliance audit.

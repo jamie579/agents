@@ -66,6 +66,14 @@ Use `academic-writing-jamie` for positive voice and `decontamination` for contex
 
 Flag a passage only when its local use is formulaic, vague, redundant, mechanically patterned, or materially inconsistent with the approved voice. A word, punctuation mark, list length, sentence length, or paragraph length is not a violation by frequency alone, and textual features are not evidence of authorship. Report exact text, location, contextual reason, and severity. Journal-mandated structure and accurate theoretical, methodological, or statistical language override stylistic preferences.
 
+### 3a. Referential Clarity Check
+- [ ] Every sentence-initial or clause-initial demonstrative or pronoun (“This”, “These”, “It”, “They”, “Such”) resolves to a single noun phrase in the same or previous sentence, or carries its noun (“this categorisation”, “this reversal”)
+- [ ] No paragraph opens with a bare demonstrative or pronoun
+- [ ] Vague category nouns (“aspect”, “factor”, “issue”, “element”, “area”, “context”, “process”, “approach”, “dynamics”, “considerations”, “challenges”, “implications”) are replaced by the specific referent or carry a `[DECISION NEEDED: …]` or `[SOURCE NEEDED: …]` marker
+- [ ] Actors are named where the claim depends on who acts; “It is … that” and “There is” openers are not serial
+- [ ] Each defined term keeps one referent across the artifact; design-defined and practice-produced objects (estimand, allocation, prespecified contrast versus delivered conditions, realised comparison) do not travel under one noun
+- Report the exact text, location, and the competing candidate referents. Record whether `clarity-editor` ran on this artifact version; if it did not, say so rather than assuming. `FAIL` when an unresolved referent or an unspecified category noun sits in a governing claim, an abstract sentence, or a conclusion; otherwise report the items as conditional findings.
+
 ### 4. Paragraph Quality Check
 - [ ] Paragraph length and structure fit the section's function, journal, and genre; methods/results tables, short abstracts, and concise conclusions are not forced into long body-paragraph targets
 - [ ] Sentence and paragraph rhythm is not mechanically repetitive

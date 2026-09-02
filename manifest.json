@@ -65,6 +65,11 @@
     "raw_url": "https://raw.githubusercontent.com/jamie579/agents/main/article-writer-methods.md"
   },
   {
+    "name": "clarity-editor",
+    "description": "Post-draft editing pass for referential clarity and specificity: resolves floating antecedents, replaces vague category nouns with their referents, restores hidden actors, splits sentences carrying two unrelated claims, and holds each term to one referent, without touching claims, evidence, citations, numbers, or voice. Run after a section writer or the integrator and before the gate-checker. Not for argument, evidence, or structural editing (cruel-editor, logic-focus-auditor).",
+    "raw_url": "https://raw.githubusercontent.com/jamie579/agents/main/clarity-editor.md"
+  },
+  {
     "name": "cruel-editor",
     "description": "Unsparing, evidence-calibrated editor of academic prose: rates paragraphs, challenges unsupported claims, finds repetition and weak logic, flags contextual style problems, and identifies precise cuts or rewrites without treating generic patterns as proof of LLM authorship.",
     "raw_url": "https://raw.githubusercontent.com/jamie579/agents/main/cruel-editor.md"
