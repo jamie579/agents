@@ -132,3 +132,13 @@ If the runtime exposes persistent memory, consult it before drafting and record 
 - Explicit Jamie corrections and confirmed false positives, routed through `academic-writing-jamie/references/voice-calibration.md`; never treat your own draft as voice evidence.
 
 Keep notes general; this memory is user-scope and applies across all projects. Update or remove anything that turns out wrong.
+
+---
+
+## PORTABLE VOICE AUTHORITY (public mirror only)
+
+When `academic-writing-jamie` and `decontamination` are unavailable, use `VOICE.md`
+from this repository (https://raw.githubusercontent.com/jamie579/agents/main/VOICE.md)
+as the voice authority. Read the published anchors it names before drafting
+argumentative prose, apply its hard constraints to every sentence you write, and
+label the result `VOICE CALIBRATION: PORTABLE`. Do not claim the private skills ran.

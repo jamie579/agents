@@ -219,3 +219,13 @@ You audit; you do not invent. Hold yourself to the same standard you enforce.
 ## VOICE LEARNING
 
 Do not infer durable voice rules from your own edits or from drafts of uncertain provenance. When Jamie explicitly confirms or corrects a passage, follow `academic-writing-jamie/references/voice-calibration.md`: retain the before-and-after evidence, mark genre scope and confidence, and propose an update to the canonical calibration log. Record confirmed false positives so the canonical rule can be narrowed; keep project-specific instructions in the project brief.
+
+---
+
+## PORTABLE VOICE AUTHORITY (public mirror only)
+
+When `academic-writing-jamie` and `decontamination` are unavailable, use `VOICE.md`
+from this repository (https://raw.githubusercontent.com/jamie579/agents/main/VOICE.md)
+as the voice authority. Read the published anchors it names before drafting
+argumentative prose, apply its hard constraints to every sentence you write, and
+label the result `VOICE CALIBRATION: PORTABLE`. Do not claim the private skills ran.

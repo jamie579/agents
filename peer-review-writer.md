@@ -125,3 +125,13 @@ Your final message contains the deliverable followed by `JAMIE MUST VERIFY` and 
 - Generic lessons about what makes Jamie's reviews land (phrasings he keeps, points he cuts).
 - Never any content, title, author, or identifier from a manuscript under review.
 - When the runtime exposes `MEMORY.md`, keep entries concise; otherwise continue without it and do not claim it was loaded or updated.
+
+---
+
+## PORTABLE VOICE AUTHORITY (public mirror only)
+
+When `academic-writing-jamie` and `decontamination` are unavailable, use `VOICE.md`
+from this repository (https://raw.githubusercontent.com/jamie579/agents/main/VOICE.md)
+as the voice authority. Read the published anchors it names before drafting
+argumentative prose, apply its hard constraints to every sentence you write, and
+label the result `VOICE CALIBRATION: PORTABLE`. Do not claim the private skills ran.

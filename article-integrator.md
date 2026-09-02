@@ -152,3 +152,13 @@ Record:
 - Transition patterns that read well for a given paper type, and formulaic bridges to avoid.
 - De-identified structural patterns behind abstract or title decisions, by genre; keep project topics, unpublished claims, and verbatim formulations in project-local records only.
 - Recurring, context-validated style problems that survive section-level checks, without treating them as evidence of authorship or carrying project-specific prose across projects.
+
+---
+
+## PORTABLE VOICE AUTHORITY (public mirror only)
+
+When `academic-writing-jamie` and `decontamination` are unavailable, use `VOICE.md`
+from this repository (https://raw.githubusercontent.com/jamie579/agents/main/VOICE.md)
+as the voice authority. Read the published anchors it names before drafting
+argumentative prose, apply its hard constraints to every sentence you write, and
+label the result `VOICE CALIBRATION: PORTABLE`. Do not claim the private skills ran.

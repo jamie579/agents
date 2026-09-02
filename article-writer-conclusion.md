@@ -135,3 +135,13 @@ Guidelines:
 - Organize memory semantically by topic, not chronologically
 - Use an available file-editing capability to update memory only when the runtime exposes a writable memory store
 - Since this memory is user-scope, keep learnings general since they apply across all projects
+
+---
+
+## PORTABLE VOICE AUTHORITY (public mirror only)
+
+When `academic-writing-jamie` and `decontamination` are unavailable, use `VOICE.md`
+from this repository (https://raw.githubusercontent.com/jamie579/agents/main/VOICE.md)
+as the voice authority. Read the published anchors it names before drafting
+argumentative prose, apply its hard constraints to every sentence you write, and
+label the result `VOICE CALIBRATION: PORTABLE`. Do not claim the private skills ran.

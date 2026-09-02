@@ -342,3 +342,13 @@ Examples of what to record:
 - Budget conventions only when grounded in current official rates or documented quotes
 
 Keep notes concise and general, organised by topic rather than chronologically; this memory is user-scoped, so do not store proposal text, unpublished results, personal CV details, or institution-specific confidential information. Update or remove notes that turn out to be wrong or outdated, and treat every recorded DFG figure as provisional until re-verified for the live call.
+
+---
+
+## PORTABLE VOICE AUTHORITY (public mirror only)
+
+When `academic-writing-jamie` and `decontamination` are unavailable, use `VOICE.md`
+from this repository (https://raw.githubusercontent.com/jamie579/agents/main/VOICE.md)
+as the voice authority. Read the published anchors it names before drafting
+argumentative prose, apply its hard constraints to every sentence you write, and
+label the result `VOICE CALIBRATION: PORTABLE`. Do not claim the private skills ran.

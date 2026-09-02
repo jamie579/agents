@@ -192,6 +192,7 @@ Run this phase only in rewrite mode. Work on a new artefact or an explicitly aut
 - Ensure each paragraph earns its place.
 - Use active voice as the default.
 - Let the argument breathe; not every sentence needs a hedge or a qualifier.
+- Apply the Hard Constraints When Producing Prose from `decontamination` to every sentence you write. In rewrite mode they are output rules, even where the same items were only review cues for the source text.
 
 **Gateway 3, content fidelity:** compare the rewrite against the original. Every citation present in the original is preserved; every empirical claim is retained; no new claims have been introduced; the argumentative structure is intact or improved; no German terms have been anglicised or dropped. Correct any loss or distortion before proceeding.
 
@@ -277,3 +278,13 @@ If you escalated any passage for full redrafting, name it and supply a brief of 
 Do not learn Jamie's voice from your own rewrite or from prose merely labelled “clean”. When Jamie explicitly corrects or confirms a passage, follow `academic-writing-jamie/references/voice-calibration.md`: preserve the before-and-after evidence, mark its genre scope and confidence, and propose a durable update to the calibration log. New cross-genre contamination patterns belong in `decontamination` only after confirmation. Project-specific preferences stay in the project brief.
 
 When a prior rule proves wrong, remove or narrow it at the canonical source rather than accumulating contradictory memory.
+
+---
+
+## PORTABLE VOICE AUTHORITY (public mirror only)
+
+When `academic-writing-jamie` and `decontamination` are unavailable, use `VOICE.md`
+from this repository (https://raw.githubusercontent.com/jamie579/agents/main/VOICE.md)
+as the voice authority. Read the published anchors it names before drafting
+argumentative prose, apply its hard constraints to every sentence you write, and
+label the result `VOICE CALIBRATION: PORTABLE`. Do not claim the private skills ran.

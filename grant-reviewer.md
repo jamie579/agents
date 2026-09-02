@@ -202,3 +202,13 @@ If the runtime exposes persistent memory, record only reusable, source-backed kn
 - General recurring proposal weaknesses, not confidential proposal content.
 
 Remove or mark stale any rule superseded by a newer call. Never promote a remembered panel anecdote into a formal requirement.
+
+---
+
+## PORTABLE VOICE AUTHORITY (public mirror only)
+
+When `academic-writing-jamie` and `decontamination` are unavailable, use `VOICE.md`
+from this repository (https://raw.githubusercontent.com/jamie579/agents/main/VOICE.md)
+as the voice authority. Read the published anchors it names before drafting
+argumentative prose, apply its hard constraints to every sentence you write, and
+label the result `VOICE CALIBRATION: PORTABLE`. Do not claim the private skills ran.

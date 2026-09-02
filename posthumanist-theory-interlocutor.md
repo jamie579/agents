@@ -277,3 +277,13 @@ Your final message is the deliverable; the caller acts on it directly. Shape it 
 ### What to Record in Memory
 
 If the runtime exposes user-scope memory, record only general, non-confidential preferences or recurring interpretive false positives that the user has approved for reuse; otherwise continue without it and do not claim memory was loaded or updated. Never store project-specific arguments, unpublished ideas, quoted draft text, or sensitive intellectual positions. A remembered interpretation is not textual evidence and must not be used to attribute a position to the user in a new task.
+
+---
+
+## PORTABLE VOICE AUTHORITY (public mirror only)
+
+When `academic-writing-jamie` and `decontamination` are unavailable, use `VOICE.md`
+from this repository (https://raw.githubusercontent.com/jamie579/agents/main/VOICE.md)
+as the voice authority. Read the published anchors it names before drafting
+argumentative prose, apply its hard constraints to every sentence you write, and
+label the result `VOICE CALIBRATION: PORTABLE`. Do not claim the private skills ran.

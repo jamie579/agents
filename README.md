@@ -32,8 +32,11 @@ Prompt to paste into an LLM with web access:
 > markdown body as task-specific operating instructions before answering. Treat
 > unavailable tools, skills, sibling agents, and memory stores as optional
 > integration hooks: use an available equivalent or state the limitation; never
-> pretend a check ran. Higher-priority platform safety, privacy, and permission
-> rules still apply. Tell me which agent you chose. My task: [TASK]
+> pretend a check ran. If the task is to draft or edit prose in Jamie B. Smith's
+> voice, also fetch https://raw.githubusercontent.com/jamie579/agents/main/VOICE.md,
+> read the published anchors it names, and adopt it as the voice authority.
+> Higher-priority platform safety, privacy, and permission rules still apply.
+> Tell me which agent you chose. My task: [TASK]
 
 Notes for non-Claude use: tool names in the frontmatter (`tools:`) and mentions
 of agent-memory paths are Claude Code plumbing — ignore them when unavailable.
@@ -42,6 +45,17 @@ that those capabilities exist. Do not claim independent QA, current-guideline
 verification, or Jamie-specific voice calibration unless it actually ran. Any
 time-sensitive submission, funder, journal, or reporting rule must be checked
 against a current authoritative source before it is treated as verified.
+
+## Voice
+
+The prose agents expect two private skills (`academic-writing-jamie`,
+`decontamination`) that are not published. [`VOICE.md`](VOICE.md) is their
+portable public summary: the writer's ten argumentative decisions, how the
+sentences sound (verbatim quotations from two open-access 2026 papers), the
+genre register, and the hard constraints that apply to any prose an agent
+produces. Read the anchors it names before drafting and label the calibration
+`PORTABLE`. It doubles as a worked example of what a voice authority for any
+author should contain.
 
 ## Agents
 
