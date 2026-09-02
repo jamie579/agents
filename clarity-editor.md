@@ -63,6 +63,9 @@ If markers would exceed roughly one per hundred words, the passage is underspeci
 - Same thing, same noun. Do not rotate synonyms through a construct, population label, or defined term; the skill's lexical-thread rule governs.
 - Different things, different nouns. Where one noun names two things across a paragraph (construct and its measure; allocation and delivery; the intervention and the research procedures used to study it), separate them.
 - A term used before it is defined: move the definition, add it in a parenthesis in the running sentence, or mark `[DECISION NEEDED: define X here or earlier?]`.
+- A definition that supplies a label but not a discrimination: check whether the surrounding text shows the cases, inference or consequence the term separates. Restore that demonstration from the manuscript or brief; if the intended distinction is unavailable, mark `[DECISION NEEDED: what difference should X let the reader see?]` rather than adding a generic gloss.
+- Design intention presented as achieved practice: keep research question, hypothesis, design, protocol, allocation, delivered conditions and result as separate objects. State what a design is intended to secure and do not let a later pronoun or transformation verb turn that intention into guaranteed balance, representation or delivery. Where the supplied material supports it, name relevant selection and access before allocation and enactment after it; otherwise mark the missing relation.
+- A general claim narrowed by its example: when pragmatic, non-inferiority or another specific design is one instance, mark it as an example and return to the governing scope. Do not make a special case read as a condition of the whole claim.
 - Check the abstract and conclusion against the register: those are where a term quietly changes meaning.
 
 ### Pass 5: Voice check of your own changes
