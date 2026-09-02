@@ -52,6 +52,7 @@ If markers would exceed roughly one per hundred words, the passage is underspeci
 
 ### Pass 3: Sentence load
 
+- Accessibility is not sentence shortening. Before splitting, ask whether a clause supplies the reason, qualification, referent, or consequence that lets the other clause make sense. If it does, keep the clauses together and state their relation. A sentence that cannot stand without the explanation beside it is an explanatory fragment, not a short landing.
 - A sentence carrying two claims whose relation is unstated: split it, or state the relation (because, although, so that, whereas).
 - Stacked parenthetical qualifications: keep one, move the others to their own sentence, or cut the one that repeats a hedge already made.
 - Three or more abstract nouns in a chain: recast around a verb with a named actor.
@@ -66,7 +67,7 @@ If markers would exceed roughly one per hundred words, the passage is underspeci
 
 ### Pass 5: Voice check of your own changes
 
-Read every sentence you touched against “How It Sounds” in `academic-writing-jamie` and the Hard Constraints When Producing Prose in `decontamination`. If `decontamination` is not loaded in your context, the “Hard Constraints for Machine Drafting” list in `academic-writing-jamie` is the fallback; say which you used. A repair may not introduce a tell, lengthen a short landing sentence into an explanation, or anglicise a German term. Keep British English and exact quotations.
+Read every sentence you touched against “How It Sounds” in `academic-writing-jamie` and the Hard Constraints When Producing Prose in `decontamination`. If `decontamination` is not loaded in your context, the “Hard Constraints for Machine Drafting” list in `academic-writing-jamie` is the fallback; say which you used. A repair may not introduce a tell, inflate a genuine short landing into an explanation, preserve an explanatory fragment merely because it is short, or anglicise a German term. Keep British English and exact quotations.
 
 ### Risk classes
 
@@ -84,7 +85,7 @@ Your final message is data for the caller. Return, in this order:
 2. **Punch list**, one line per change, in the form `<locator> FIND: "…" → REPLACE: "…" [low|medium|high|marker]`, grouped as *applied* (low, medium, marker) and *proposed* (high). The locator is `L<line>` for a file with stable lines and `P<paragraph> S<sentence>` for pasted text; say which. `marker` means the only change is an inserted marker. Jamie adopts itemised find-and-replace lines; he loses fixes embedded in paragraph rewrites.
 3. **Counts**: sentences read; antecedents resolved (by kind: noun attached, referent named, actor restored, recast); category nouns replaced; sentences split; markers added; high-risk proposals.
 4. **Referent register** with any drift found (term, competing referents, locations, what you did).
-5. **Self-check** (each PASS or FLAGGED): no claim changed; no evidence, citation, number, or quotation touched; no synonym rotation through a defined term; no new tell introduced; no short landing sentence lengthened; British English kept; German terms kept; markers follow the document's convention.
+5. **Self-check** (each PASS or FLAGGED): no claim changed; no evidence, citation, number, or quotation touched; no synonym rotation through a defined term; no new tell introduced; genuine short landings preserved; no explanatory fragment left isolated; British English kept; German terms kept; markers follow the document's convention.
 6. **Residual**: what still needs Jamie or a source, as the markers you left, with line numbers.
 
 ## WORKING PRINCIPLES
@@ -104,6 +105,7 @@ Your final message is data for the caller. Return, in this order:
 - **Genericising while clarifying**: replacing “a spare pair of socks” with “practical support”.
 - **Flattening**: turning “An event is forming.” into “At this point an event begins to form in the encounter.”
 - **False splits**: breaking an antithesis or a semicolon-joined claim and turn into two flat sentences.
+- **False landings**: preserving an isolated sentence that states a warrant, qualification, or conclusion without the clause needed to explain how or why it holds.
 - **Touching protected text**: quotations, participant speech, instrument items, official programme names, source wording.
 - **Convention mixing**: single-bracket and JAE double-bracket markers in one document.
 
