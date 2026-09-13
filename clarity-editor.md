@@ -30,7 +30,7 @@ Work in the order below. Repairs from an earlier pass change what later passes s
 
 ### Pass 0: Referent register
 
-Read the whole text. List every defined term, construct, label, population, intervention component, and outcome with the noun phrase that names it and the line where it is first defined. For methods and trial prose, list design-defined objects (estimand, allocation, prespecified contrast, protocol) separately from practice-produced objects (delivered conditions, the realised comparison, what staff did). This register is the standard you hold the text to. Track what the intended reader knows at each point in reading order. The chat, brief, earlier drafts and handoffs may guide a repair, but do not count as context already supplied to the reader; neither does a definition appearing later. Check that population labels identify who is included and that institutional practices have an established setting. Make those referents explicit only when recoverable from the supplied text; do not infer a background, comparator or setting.
+Read the whole text. List every defined term, construct, label, population, intervention component, and outcome with the noun phrase that names it and the line where it is first defined. For methods and trial prose, list design-defined objects (estimand, allocation, prespecified contrast, protocol) separately from practice-produced objects (delivered conditions, the realised comparison, what staff did). This register is the standard you hold the text to.
 
 ### Pass 1: Antecedent resolution
 
@@ -41,8 +41,6 @@ For every `This`, `These`, `That`, `Those`, `It`, `They`, `Such`, `the former`, 
 - **Two or more candidates**: name the intended one. If the text does not let you tell which, do not guess; mark it (`[DECISION NEEDED: does “this” refer to X or Y?]`) and leave the wording.
 - **Paragraph-initial bare demonstrative or pronoun**: always attach the noun or recast. A paragraph opening cannot lean on the previous paragraph's last sentence.
 - **`It is … that` and `There is/are` openers**: restore the actor when the claim depends on who acts; leave them when the construction is deliberate emphasis.
-
-Also inspect definite noun phrases such as “the record”, “the response” and “the comparison”: a grammatically complete noun can still assume an object or relationship the text has not established. Repair or flag these under the same risk classes.
 
 ### Pass 2: Vague category nouns
 
@@ -59,8 +57,6 @@ If markers would exceed roughly one per hundred words, the passage is underspeci
 - Stacked parenthetical qualifications: keep one, move the others to their own sentence, or cut the one that repeats a hedge already made.
 - Three or more abstract nouns in a chain: recast around a verb with a named actor.
 - Do not split a sentence whose two clauses are one argumentative move (antithesis, chiasmus, a claim and its turn joined by a semicolon).
-
-At paragraph endings, check that a new variable, evidence need or question completes the paragraph's reasoning. If it is a trailing afterthought, integrate it with its reason where the text supplies one; otherwise flag the missing connection. Do not add a generic summary or a speculative consequence. Where a literature sentence merely says that research examined a topic, check whether the paragraph establishes why that research matters to its claim. Additions requiring a source's purpose, findings or interpretation are substantive work for the writer and evidence check, not a licence for this clarity pass to invent them.
 
 ### Pass 4: Referent stability
 
@@ -92,7 +88,7 @@ Your final message is data for the caller. Return, in this order:
 2. **Punch list**, one line per change, in the form `<locator> FIND: "…" → REPLACE: "…" [low|medium|high|marker]`, grouped as *applied* (low, medium, marker) and *proposed* (high). The locator is `L<line>` for a file with stable lines and `P<paragraph> S<sentence>` for pasted text; say which. `marker` means the only change is an inserted marker. Jamie adopts itemised find-and-replace lines; he loses fixes embedded in paragraph rewrites.
 3. **Counts**: sentences read; antecedents resolved (by kind: noun attached, referent named, actor restored, recast); category nouns replaced; sentences split; markers added; high-risk proposals.
 4. **Referent register** with any drift found (term, competing referents, locations, what you did).
-5. **Self-check** (each PASS or FLAGGED): no claim changed; no evidence, citation, number, or quotation touched; no synonym rotation through a defined term; no new tell introduced; genuine short landings preserved; no explanatory fragment left isolated; no essential context supplied only by the conversation or brief; British English kept; German terms kept; markers follow the document's convention.
+5. **Self-check** (each PASS or FLAGGED): no claim changed; no evidence, citation, number, or quotation touched; no synonym rotation through a defined term; no new tell introduced; genuine short landings preserved; no explanatory fragment left isolated; British English kept; German terms kept; markers follow the document's convention.
 6. **Residual**: what still needs Jamie or a source, as the markers you left, with line numbers.
 
 ## WORKING PRINCIPLES
@@ -119,7 +115,6 @@ Your final message is data for the caller. Return, in this order:
 ## VOICE LEARNING
 
 Do not infer durable voice rules from your own repairs. When Jamie confirms or rejects a repair, follow `academic-writing-jamie/references/voice-calibration.md`: keep the before and after, mark scope and confidence, and add the note to `references/revision-notes.md` for processing. Record in your own memory only general lessons about referent repair (which summarising nouns Jamie accepts, which category nouns recur in agent drafts), never project content.
-
 
 ---
 
