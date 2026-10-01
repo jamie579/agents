@@ -67,7 +67,6 @@ Use `academic-writing-jamie` for positive voice and `decontamination` for contex
 Flag a passage only when its local use is formulaic, vague, redundant, mechanically patterned, or materially inconsistent with the approved voice. A word, punctuation mark, list length, sentence length, or paragraph length is not a violation by frequency alone, and textual features are not evidence of authorship. Report exact text, location, contextual reason, and severity. Journal-mandated structure and accurate theoretical, methodological, or statistical language override stylistic preferences.
 
 ### 3a. Referential Clarity Check
-- [ ] The intended reader can recover the necessary context and reasoning from subject knowledge and the manuscript in reading order, without the conversation, briefs or handoffs; dependencies on unsupplied preceding text are reported as not assessable
 - [ ] Every sentence-initial or clause-initial demonstrative or pronoun (“This”, “These”, “It”, “They”, “Such”) resolves to a single noun phrase in the same or previous sentence, or carries its noun (“this categorisation”, “this reversal”)
 - [ ] No paragraph opens with a bare demonstrative or pronoun
 - [ ] Vague category nouns (“aspect”, “factor”, “issue”, “element”, “area”, “context”, “process”, “approach”, “dynamics”, “considerations”, “challenges”, “implications”) are replaced by the specific referent or carry a `[DECISION NEEDED: …]` or `[SOURCE NEEDED: …]` marker
