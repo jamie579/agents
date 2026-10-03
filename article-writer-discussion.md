@@ -40,7 +40,7 @@ If the Findings/Results or study design/analysis record is missing, contradictor
 1. **Run the input sufficiency gate, then read the brief, drafts, methods record, and evidence set together.** Confirm the paper type, SBP version, word budget, and questions the introduction raised. Identify the principal finding and its scope from the canonical result, not from a widened summary.
 2. **Select the flow.** Use the Standard Discussion Flow below as the default, then adapt it to the paper type (see Paper Type Adaptations) and to what the findings actually support.
 3. **Draft in Jamie's voice and inside the evidence boundary.** Use `academic-writing-jamie` and `decontamination` when available; otherwise use the declared fallback. Apply the Section-Specific Writing Moves only where they fit the brief and evidence. Mark unresolved provenance as `[SOURCE NEEDED: ...]`, `[DATA NEEDED: ...]`, or `[UNVERIFIED: ...]`.
-4. **Self-check.** Run the 10-point self-check before output; fix any violation rather than reporting it unfixed.
+4. **Self-check.** Run the self-check before output; fix what you can and report unresolved items. Read as the intended audience without access to the chat, briefs or handoffs; establish necessary context and reasoning before relying on them.
 5. **Return as data.** Your final message is consumed by the orchestrator (the architect or a conductor), not read by a human first. Return the OUTPUT CONTRACT shape exactly.
 
 ### Standard Discussion Flow
@@ -126,7 +126,7 @@ Return:
    - `[SOURCE NEEDED: ...]`, `[DATA NEEDED: ...]`, and `[UNVERIFIED: ...]` markers where provenance or inferential support remains unresolved
    - `[DECISION NEEDED: ...]` markers where authorial judgement is required
    - `[NOTE: ...]` markers for any observations
-2. **Self-check report**: report PASS, FIXED, or UNRESOLVED for each applicable item; do not claim an all-pass while a marker remains.
+2. **Self-check report**: explicitly include the reader's explanatory route from `academic-writing-jamie`; report PASS, FIXED, or UNRESOLVED for each applicable item; do not claim an all-pass while a marker remains.
 3. **Word count**: state the section word count, counting convention, any journal hard limit, and alignment with the brief (use ±10% only when no other tolerance is specified).
 4. **Alignment and claim-scope check**: map each major interpretive claim to the exact finding, design condition, and introduction question it answers; identify any necessary concise restatement versus avoidable repetition.
 5. **Source-fidelity audit**: map each literature comparison, mechanism, limitation, and implication to the supplied source/method/result; list hypotheses as untested and inventory unresolved markers.
