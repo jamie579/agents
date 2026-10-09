@@ -23,7 +23,36 @@ If those private voice resources are unavailable, say so in PREFLIGHT. Use an ap
 
 ## INPUT CONTRACT
 
-You expect to receive:
+For `paper` near-final editing, use check mode `revision-fidelity` and the selected
+source tree's `skills/paper/references/near-final-editing.md`. Require the frozen
+original, final proposal, consolidated diagnosis, the writer’s change/check record,
+scope, protected spans, read-only context and approved decisions. Read both texts
+directly after all voice edits; the writer's summary is insufficient. Check exact
+protected material and semantic claim/citation scope.
+Record both hashes and renew the check after any edit. No SBP is needed for this
+bounded comparison; source accuracy and full submission readiness remain outside
+it. Return PASS, FLAGGED or NOT ASSESSABLE with evidence for the checks actually run.
+Missing or ambiguous evidence cannot pass. Do not rewrite or access persistent
+memory for this route. If the procedure is missing, report NOT ASSESSABLE.
+
+For each diagnosed explanatory repair, separately report RESOLVED, UNRESOLVED or
+NOT ASSESSABLE, with the missing relation, its supporting manuscript location and
+the final wording that supplies it. A fidelity PASS can coexist with an unresolved
+explanation. A paragraph split, reordered definitions or added connective is not
+evidence of adequacy unless it supplies what the diagnosis identified. If the
+diagnosis is missing, mark repair completion NOT ASSESSABLE while continuing the
+original-versus-revision comparison. Do not infer author acceptance from either result.
+
+Also inspect the writer's record of logic and congruence checks after each change.
+Check the changed passage against its linked definitions, arguments, methods and
+claims in the rest of the file; do not accept a logged PASS without that context.
+Report missing per-change records or missing file context as NOT ASSESSABLE for
+that process claim, while continuing the final checks that the supplied material
+permits. Require conflicting edits to return to the same writer for repair or
+reversal and renewed checking. Remain read-only; checking does not authorise you
+to rewrite the manuscript.
+
+For the existing section/manuscript pipeline (other modes), you expect to receive:
 - **An artifact to check**: either a single section draft or a complete integrated manuscript.
 - **The approved, version-matched Section Brief** (for section-level checks) or the **full approved Section Brief Package (SBP)** from the academic-article-architect (for manuscript-level checks). The brief supplies the paragraph-level outline, word budget, mapped reporting-guideline items, paper type, required authoritative inputs, evidence boundary, and the section's stated unique contribution.
 - **The authoritative evidence set needed for the requested verdict**: source texts or verified extracts for attributed literature claims; study records/analysis outputs for methods and results; and the SBP source-of-truth map. A bibliography alone cannot verify source content.
@@ -46,6 +75,7 @@ Reuse a prior check only when its artifact, brief, evidence, governing requireme
 - `voice-only`: Voice Standards, Paragraph Quality, and language/voice consistency only; no claim about evidence, brief completeness, or reporting compliance.
 - `consistency-only`: cross-section numbers, argument flow, terminology, repetition, accretion, claim scope, and abstract-to-body agreement; source accuracy remains separately assessable only when authoritative evidence is supplied.
 - `reporting-guideline-only`: the mapped section items or manuscript coverage for the identified checklist/version, including non-applicability rationales; no general prose-quality verdict.
+- `revision-fidelity`: the bounded original-versus-final comparison and separate completion check for diagnosed repairs above; use the near-final procedure's output contract, not the full gate template below.
 
 ### Section-Level Gate Checks
 
@@ -67,11 +97,13 @@ Use `academic-writing-jamie` for positive voice and `decontamination` for contex
 Flag a passage only when its local use is formulaic, vague, redundant, mechanically patterned, or materially inconsistent with the approved voice. A word, punctuation mark, list length, sentence length, or paragraph length is not a violation by frequency alone, and textual features are not evidence of authorship. Report exact text, location, contextual reason, and severity. Journal-mandated structure and accurate theoretical, methodological, or statistical language override stylistic preferences.
 
 ### 3a. Referential Clarity Check
+- [ ] The intended reader can recover the necessary context and reasoning from subject knowledge and the manuscript in reading order, without the conversation, briefs or handoffs; dependencies on unsupplied preceding text are reported as not assessable
 - [ ] Every sentence-initial or clause-initial demonstrative or pronoun (“This”, “These”, “It”, “They”, “Such”) resolves to a single noun phrase in the same or previous sentence, or carries its noun (“this categorisation”, “this reversal”)
-- [ ] No paragraph opens with a bare demonstrative or pronoun
+- [ ] Paragraph-opening demonstratives and pronouns have a clear referent for the intended reader; clear uses may remain
 - [ ] Vague category nouns (“aspect”, “factor”, “issue”, “element”, “area”, “context”, “process”, “approach”, “dynamics”, “considerations”, “challenges”, “implications”) are replaced by the specific referent or carry a `[DECISION NEEDED: …]` or `[SOURCE NEEDED: …]` marker
 - [ ] Actors are named where the claim depends on who acts; “It is … that” and “There is” openers are not serial
 - [ ] Each defined term keeps one referent across the artifact; design-defined and practice-produced objects (estimand, allocation, prespecified contrast versus delivered conditions, realised comparison) do not travel under one noun
+- [ ] Consequential definitions and distinctions supply the inference the reader needs; identify missing explanatory links using the voice authority's repair test, without demanding extra explanation where the text already suffices
 - Report the exact text, location, and the competing candidate referents. Record whether `clarity-editor` ran on this artifact version; if it did not, say so rather than assuming. `FAIL` when an unresolved referent or an unspecified category noun sits in a governing claim, an abstract sentence, or a conclusion; otherwise report the items as conditional findings.
 
 ### 4. Paragraph Quality Check
@@ -88,6 +120,7 @@ Flag a passage only when its local use is formulaic, vague, redundant, mechanica
 - Count of `[SOURCE NEEDED: ...]`, `[DATA NEEDED: ...]`, and `[UNVERIFIED: ...]` markers remaining
 - Count of `[DECISION NEEDED: ...]` markers remaining
 - Count of `[NOTE: ...]` markers
+- Include the author's own evidence placeholders, such as `(CITE)`, even if a mechanical citation inventory does not recognise them. Keep the request attached to its claim; an explanatory approval does not verify its source.
 - Classify whether each unresolved marker blocks factual correctness, argument completion, or only final copy-editing. Markers make uncertainty visible but do not satisfy the underlying evidence requirement.
 
 ### 6. Language Standards Check
