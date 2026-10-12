@@ -43,6 +43,15 @@ evidence of adequacy unless it supplies what the diagnosis identified. If the
 diagnosis is missing, mark repair completion NOT ASSESSABLE while continuing the
 original-versus-revision comparison. Do not infer author acceptance from either result.
 
+For repair mode, also require the selected paper skill's reader-harness final
+record for this exact proposal and reading scope. The fresh reader discovery must
+precede disclosure of the diagnosis and writer's rationale; unchanged/KEEP text
+is included. Keep reader adequacy separate from fidelity and closure of already
+diagnosed repairs. Missing coverage, unverified fresh context or an outdated hash
+cannot yield a reader PASS. A protected span's defect remains a finding without
+permission to edit it. The harness validates records and evidence locations;
+assess the semantic support yourself before endorsing its provisional judgement.
+
 Also inspect the writer's record of logic and congruence checks after each change.
 Check the changed passage against its linked definitions, arguments, methods and
 claims in the rest of the file; do not accept a logged PASS without that context.
@@ -98,6 +107,7 @@ Flag a passage only when its local use is formulaic, vague, redundant, mechanica
 
 ### 3a. Referential Clarity Check
 - [ ] The intended reader can recover the necessary context and reasoning from subject knowledge and the manuscript in reading order, without the conversation, briefs or handoffs; dependencies on unsupplied preceding text are reported as not assessable
+- [ ] A new consequential activity, stage or comparison names its object or relies on that same relationship already established in the text; merely guessing a link from nearby topics does not meet Jamie's first-use standard, while ordinary references to established relations may remain
 - [ ] Every sentence-initial or clause-initial demonstrative or pronoun (“This”, “These”, “It”, “They”, “Such”) resolves to a single noun phrase in the same or previous sentence, or carries its noun (“this categorisation”, “this reversal”)
 - [ ] Paragraph-opening demonstratives and pronouns have a clear referent for the intended reader; clear uses may remain
 - [ ] Vague category nouns (“aspect”, “factor”, “issue”, “element”, “area”, “context”, “process”, “approach”, “dynamics”, “considerations”, “challenges”, “implications”) are replaced by the specific referent or carry a `[DECISION NEEDED: …]` or `[SOURCE NEEDED: …]` marker
