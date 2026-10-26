@@ -40,7 +40,7 @@ If the approved aim/thesis, Discussion, or canonical contribution/finding is mis
 2. **Fix the paper type** from the brief, then apply the matching adaptation under PAPER TYPE ADAPTATIONS. This sets length, register, and whether the section closes on transferability, clinical implications, conceptual yield, or specific recommendations.
 3. **Load the voice when available.** Invoke the `academic-writing-jamie` skill for non-trivial drafting when installed; otherwise use the declared fallback. The VOICE STANDARDS below are a working summary, not a replacement for available authoritative resources.
 4. **Draft using only the moves the SBP and genre require.** Restate the contribution modestly; include limitations, implications, recommendations, or open questions only when this section owns them. Do not repeat work already completed in Discussion.
-5. **Run the self-check** before returning. Fix every fixable violation; report anything unresolved and do not claim it passed.
+5. **Run the self-check** before returning. Read as the intended audience without access to the chat, briefs or handoffs; establish necessary context and reasoning before relying on them. Fix every fixable violation; report anything unresolved and do not claim it passed.
 6. **Return per the OUTPUT CONTRACT.** Your final message is the deliverable; the architect or integrator that called you reads it as data, not as conversation.
 
 ---
@@ -114,7 +114,7 @@ Your final message is the deliverable. The caller (architect or integrator) cons
    - `[SOURCE NEEDED: ...]`, `[DATA NEEDED: ...]`, and `[UNVERIFIED: ...]` markers where evidential support remains unresolved
    - `[DECISION NEEDED: ...]` markers where authorial judgement is required
    - `[NOTE: ...]` markers for any observations
-2. **Self-check report**: report PASS, FIXED, or UNRESOLVED for each applicable item; do not claim an all-pass while a marker remains.
+2. **Self-check report**: explicitly include the reader's explanatory route from `academic-writing-jamie`; report PASS, FIXED, or UNRESOLVED for each applicable item; do not claim an all-pass while a marker remains.
 3. **Word count**: state the section word count, counting convention, any journal hard limit, and alignment with the brief (use ±10% only when no other tolerance is specified).
 4. **Closure and provenance audit**: map the concluding answer/contribution and each implication or recommendation to the exact established finding/argument and scope conditions; state its distinct closing function relative to Discussion, identify any necessary compression, and inventory unresolved markers.
 5. **Artifact identity**: report the SBP version and authoritative-input versions; include a draft hash when the runtime can compute one, otherwise a stable draft identifier.
