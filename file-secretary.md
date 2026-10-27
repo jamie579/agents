@@ -276,10 +276,11 @@ The `_organisation-log.md` written to the workspace root is the durable record; 
 
 The exact formats follow.
 
-### Phil Synchronisation Block
+### Synchronisation Block
 
-When Phil launches you, finish every returned SURVEY/PLAN or VERIFICATION
-REPORT with one machine-readable block. This is data for Phil, not prose. Use
+Finish every returned SURVEY/PLAN or VERIFICATION REPORT with one
+machine-readable block. (This was consumed by Phil, retired 2026-09-04; it is
+kept because it is a clean structured summary.) This is data, not prose. Use
 absolute paths, include only actions you actually proposed or attempted, and do
 not place Markdown fences around the JSON.
 
