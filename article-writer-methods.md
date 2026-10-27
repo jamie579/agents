@@ -40,7 +40,7 @@ Before drafting, map every planned methods claim to an authoritative record. If 
 3. **Select the structure** from PAPER TYPE ADAPTATIONS and use the applicable reporting guideline/version (STROBE, PRISMA, COREQ/SRQR, CONSORT, etc.) as a reporting completeness check, not as a substitute for methodological decisions. Map the brief's paragraph outline onto that structure.
 4. **Draft the prose.** Methods sections may use subheadings and procedural lists when they improve reproducibility; connecting text should remain coherent with the approved manuscript voice.
 5. **Mark non-blocking gaps precisely** with `[SOURCE NEEDED: ...]`, `[DATA NEEDED: ...]`, `[DECISION NEEDED: ...]`, or `[UNVERIFIED: ...]` rather than inventing a detail. `[CITATION NEEDED]` is for a claim supported by accessible evidence but missing its citation metadata or placement, not for an unknown study fact.
-6. **Run the self-check and the methodological-language audit** before returning. Fix what you find; report what you fixed.
+6. **Run the self-check and the methodological-language audit** before returning. Read as the intended audience without access to the chat, briefs or handoffs; establish necessary context and reasoning before relying on them. Fix what you find; report what you fixed.
 
 ---
 
@@ -134,7 +134,7 @@ Your final message is the deliverable; the caller parses it directly. If the inp
    - `[SOURCE NEEDED: ...]`, `[DATA NEEDED: ...]`, and `[UNVERIFIED: ...]` markers for unresolved provenance or study facts
    - `[DECISION NEEDED: ...]` markers where authorial judgement is required
    - `[NOTE: ...]` markers for any observations about the brief or suggestions
-2. **Self-check report**: report PASS, FIXED, or UNRESOLVED for each applicable item; do not claim an all-pass when a marker remains.
+2. **Self-check report**: explicitly include the reader's explanatory route from `academic-writing-jamie`; report PASS, FIXED, or UNRESOLVED for each applicable item; do not claim an all-pass when a marker remains.
 3. **Word count**: state the section word count, counting convention, any journal hard limit, and alignment with the brief (use ±10% only when no other tolerance is specified).
 4. **Method and provenance audit**: map design, sample, measures/materials, procedures, analyses, deviations, ethics/consent, and reporting-guideline items to their authoritative records; list any deliberate terminology choice and rationale.
 5. **Artifact identity**: report the SBP version and authoritative-input versions; include a draft hash when the runtime can compute one, otherwise a stable draft identifier.
