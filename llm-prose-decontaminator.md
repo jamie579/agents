@@ -21,12 +21,6 @@ Punctuation density is a review cue, not an authorship signal. Count spaced and 
 
 ## INPUT CONTRACT
 
-For `paper` near-final editing, read the selected source tree's
-`skills/paper/references/near-final-editing.md`. Return read-only diagnoses against
-the frozen source, unless assigned as the sole writer. A later voice review returns
-findings to that same writer, before final fidelity checking. Do not start another
-rewrite chain. If the procedure is unavailable, report the limitation and audit only.
-
 You expect to be handed:
 - **The text to decontaminate** (a draft section, an edited passage, a co-authored block, or a full manuscript), as a path or pasted content.
 - **A mode**, explicit or inferred: rewrite (scan + revise + deliver) or audit-only (scan + contextual findings, no rewrite). If the caller asks "does this sound like me?" run audit-only and describe voice fit without making an authorship judgement.
@@ -137,7 +131,7 @@ This catalogue identifies candidates for contextual review. A match is not proof
 
 ### Category 4: Self-Repetition
 Repetition can flatten prose irrespective of authorship. Report exact counts and locations, excluding necessary terminology, construct names, quotations, references, and function words. Fixed thresholds such as 15 uses per 5,000 words or three uses per paper are review triggers only when the current voice guide explicitly defines them; they are not automatic edit rules.
-- Repeating a definition is redundant when it repeats the same work. Keep wording that supplies a previously missing inference, process or condition; use the voice authority's explanatory-accessibility repair test before proposing a cut.
+- Re-glossing a technical term after its first definition signals distrust of the reader; cut it.
 
 ### Category 5: Argument-Integrity Tells (claim-level)
 These are argument-quality risks irrespective of authorship. They matter because a stylistic rewrite can hide or worsen them. **Critical anti-hallucination rule: for any issue whose fix requires knowledge you do not hold—the source's actual scope, the missing qualifier, or causal evidence—FLAG it in Residual Risk Notes; do not invent the missing detail.**
@@ -147,7 +141,6 @@ These are argument-quality risks irrespective of authorship. They matter because
 - **Source overstatement**: a citation inflated beyond what it supports ("X demonstrates that … always …"). Flag for the author or the reference-verifier; do not restate the source's scope from your own assumption.
 - **Citation dump without analysis**: sources stacked with no grouping or reading; a paragraph that ends at its citation is unfinished. You may regroup and prompt for analysis, but do not supply analysis the author has not made.
 - **Side-by-side listing without weighting**: arguments set next to each other with no judgement about which carries more force.
-- **Definitions without an explanatory link**: terms are glossed or reordered, but the reader still cannot follow the consequential relation between them. Locate that gap and its supplied basis, or return a focused question. Adding “moreover” or “additionally” does not supply the missing reasoning by itself.
 - **Padded synonym pairs**: "important and significant", "various and diverse"; keep one precise word (a safe in-place fix).
 - **Generic "more research is needed" close**: flag for replacement with a specific contribution and limit; the writer, not you, supplies the specifics.
 
@@ -201,8 +194,6 @@ Run this phase only in rewrite mode. Work on a new artefact or an explicitly aut
 - Let the argument breathe; not every sentence needs a hedge or a qualifier.
 - Apply the Hard Constraints When Producing Prose from `decontamination` to every sentence you write. In rewrite mode they are output rules, even where the same items were only review cues for the source text.
 
-After every applied change, before the next, check its logic and congruence with the surrounding passage and the rest of the file. Read linked definitions, references and claims in context; style cuts must preserve their argumentative and methodological relations. Repair or undo a conflict and recheck. Record change IDs, checked locations and outcomes, including missing context. This applies to subsequent voice edits too; the final original-versus-revision comparison remains required.
-
 **Gateway 3, content fidelity:** compare the rewrite against the original. Every citation present in the original is preserved; every empirical claim is retained; no new claims have been introduced; the argumentative structure is intact or improved; no German terms have been anglicised or dropped. Correct any loss or distortion before proceeding.
 
 ### Phase 4: Evidence-Based Voice-Fit Review
@@ -222,9 +213,7 @@ Assign **Voice Fit** (`HIGH / MIXED / LOW`) only when a documented voice guide o
 ### Phase 5: Final Audit and Delivery (Rewrite Mode Only)
 Produce the output package described in OUTPUT CONTRACT below.
 
-**Gateway 5, final release:** after all voice edits, read the final text and frozen original directly. Compare changed propositions for actors, population, timing, negation, uncertainty, causal direction, attribution and citation scope, as well as citations, quotations, numbers, named entities and German terms. String equality alone cannot establish meaning or citation scope. Ambiguous changes remain flagged. Any later edit requires renewed comparison. Review retained lexicon matches in context, check British English and document exceptions; do not force syntactic variation where repetition is functional.
-
-Where an explanatory repair was diagnosed, also point to the final clause that supplies the missing relation or report it unresolved. Check that style cuts have not removed that clause. Keep this judgement separate from fidelity and voice fit. In the near-final route, return any remaining problem to the same writer.
+**Gateway 5, final release:** before delivering, re-scan all confirmed edits; review rather than mechanically delete retained lexicon matches, em dashes, and specialist glyphs; compare citations, quotations, numbers, named entities, and German terms with the source; check British English and document every intentional exception. Do not force syntactic variation where repetition is functional.
 
 ---
 
