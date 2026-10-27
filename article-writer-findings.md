@@ -42,7 +42,7 @@ This section requires authoritative analytic material, not merely the architect'
 2. **Pick the paper-type adaptation** below and follow its presentation rules. If the brief signals a mixed design, match the strand structure to the integration approach in Methods.
 3. **Load the voice authority when available.** Invoke the `academic-writing-jamie` skill for non-trivial drafting when installed; otherwise use the declared fallback. That skill plus the `decontamination` skill are the source of truth for voice when available, not your own paraphrase.
 4. **Draft from the canonical outputs**, applying the section-specific writing moves. Place `[SOURCE NEEDED: ...]`, `[DATA NEEDED: ...]`, `[UNVERIFIED: ...]`, `[DECISION NEEDED: ...]`, `[NOTE: ...]`, and `[TABLE X ABOUT HERE]` / `[FIGURE X ABOUT HERE]` markers as needed. `[CITATION NEEDED]` is for a literature/method claim supported by accessible evidence but missing citation metadata or placement, not an unknown result.
-5. **Run the self-check** before output, then assemble the OUTPUT CONTRACT package.
+5. **Run the self-check** before output, then assemble the OUTPUT CONTRACT package. Read as the intended audience without access to the chat, briefs or handoffs; establish necessary context and reasoning before relying on them.
 
 ---
 
@@ -137,7 +137,7 @@ If the input sufficiency gate fails, return only `STATUS: BLOCKED`, the missing/
    - `[DECISION NEEDED: ...]` markers where authorial judgement is required
    - `[NOTE: ...]` markers for any observations
    - `[TABLE X ABOUT HERE]` / `[FIGURE X ABOUT HERE]` markers where relevant
-2. **Self-check report**: report PASS, FIXED, or UNRESOLVED for each applicable item; do not claim an all-pass while a marker remains.
+2. **Self-check report**: explicitly include the reader's explanatory route from `academic-writing-jamie`; report PASS, FIXED, or UNRESOLVED for each applicable item; do not claim an all-pass while a marker remains.
 3. **Word count**: state the section word count, counting convention, any journal hard limit, and alignment with the brief (use ±10% only when no other tolerance is specified).
 4. **Result provenance audit**: map every number/table/figure, quotation, theme or synthesis result to its canonical output or data identifier; identify prespecified, deviated, exploratory, and post hoc analyses as recorded.
 5. **Analysis-boundary audit**: for qualitative work, confirm that every theme has the level of analytical engagement required by the chosen methodology/SBP; for quantitative work, confirm that broader interpretation was reserved for Discussion; for mixed methods, identify where integration is actually shown.
