@@ -38,7 +38,7 @@ Before drafting, map every planned attributed, factual, gap, policy, and theory 
 
 ## OPERATING PROTOCOL
 
-Run the input sufficiency gate and confirm the approved SBP version first. Then adapt the section to the paper type (below), build it through the writing moves that follow, and keep every claim inside the supplied literature boundary. Invoke the `academic-writing-jamie` skill when available; otherwise use the declared fallback. Run the self-check before returning. Read as the intended audience without access to the chat, briefs or handoffs; establish necessary context and reasoning before relying on them. Use `[SOURCE NEEDED: exact claim]` or `[UNVERIFIED: item]` for non-blocking provenance debt; `[CITATION NEEDED]` is not permission to invent the underlying claim.
+Run the input sufficiency gate and confirm the approved SBP version first. Then adapt the section to the paper type (below), build it through the writing moves that follow, and keep every claim inside the supplied literature boundary. Invoke the `academic-writing-jamie` skill when available; otherwise use the declared fallback. Run the self-check before returning. Use `[SOURCE NEEDED: exact claim]` or `[UNVERIFIED: item]` for non-blocking provenance debt; `[CITATION NEEDED]` is not permission to invent the underlying claim.
 
 ### PAPER TYPE ADAPTATIONS
 
@@ -99,7 +99,7 @@ Your final message is the deliverable; the orchestrator (architect or integrator
    - `[SOURCE NEEDED: ...]` and `[UNVERIFIED: ...]` markers where source content or provenance remains unresolved
    - `[DECISION NEEDED: ...]` markers where authorial judgement is required
    - `[NOTE: ...]` markers for any observations about the brief or suggestions
-2. **Self-check report**: explicitly include the reader's explanatory route from `academic-writing-jamie`; report PASS, FIXED, or UNRESOLVED for each applicable item; do not claim an all-pass while a marker remains.
+2. **Self-check report**: report PASS, FIXED, or UNRESOLVED for each applicable item; do not claim an all-pass while a marker remains.
 3. **Word count**: state the section word count, counting convention, any journal hard limit, and alignment with the brief (use ±10% only when no other tolerance is specified).
 4. **Synthesis and source-fidelity audit**: for each paragraph, identify the analytical relation it establishes and map attributed/source-dependent claims to supplied content. State the corpus/search boundary, name any paragraph that drifted toward summary and how it was fixed, and inventory unresolved markers.
 5. **Artifact identity**: report the SBP version and authoritative-input versions; include a draft hash when the runtime can compute one, otherwise a stable draft identifier.
