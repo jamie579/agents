@@ -111,7 +111,7 @@
   },
   {
     "name": "llm-prose-decontaminator",
-    "description": "Audits and, when authorised, rewrites formulaic or voice-incongruent academic prose using Jamie's documented preferences. Reports local style and argument problems without inferring LLM authorship or certifying that prose is human.",
+    "description": "Audits and, when authorised, revises formulaic or voice-incongruent prose and removes unwanted hidden text, document elements, and watermarks. Preserves meaning and reports verified changes without inferring LLM authorship or certifying that prose is human.",
     "raw_url": "https://raw.githubusercontent.com/jamie579/agents/main/llm-prose-decontaminator.md"
   },
   {
