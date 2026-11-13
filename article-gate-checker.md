@@ -99,6 +99,7 @@ Run these checks on individual section drafts.
 ### 2. Word Count Check
 - [ ] Section satisfies any journal hard limit and is reasonably aligned with the approved brief; use ±10% only as the default planning tolerance when neither source specifies another rule
 - Report: actual count / budgeted count / percentage deviation / counting convention / applicable hard limit
+- For new drafting, check the shared Murray/Brown argument brief against `skills/academic-writing-jamie/references/academic-writing-practice.md`: goal includes verb, section, words and time; Brown answers respect their limits; paragraph/subsection/section allocations sum to the target. Record missing preparation as `NOT ASSESSABLE`, not proof of defective prose. Do not impose a new SBP on the separate near-final fidelity route.
 
 ### 3. Voice Standards Check (academic-writing-jamie)
 Use `academic-writing-jamie` for positive voice and `decontamination` for contextual style review when available. Otherwise compare with the strongest supplied approved author prose; if neither exists, mark author-specific calibration `NOT ASSESSABLE` and still assess clarity, precision, consistency, and journal fit.
@@ -123,6 +124,8 @@ Flag a passage only when its local use is formulaic, vague, redundant, mechanica
 - [ ] Internal paragraph structure varies where variation improves the argument (not all claim→evidence→interpretation)
 - [ ] **Topic-sentence test**: in argumentative prose, read the first sentence of each paragraph in sequence; together they should trace the argument. Procedural and compact results paragraphs may orient the reader without advancing an interpretive claim.
 - [ ] Each paragraph carrying evidence completes its section-appropriate rhetorical work. Analytical sections should not end at a quotation, datum, or citation without analysis; quantitative Results may report an estimate without importing Discussion-level interpretation.
+- [ ] **Aim and claim tests**: read openings in order for the section map and endings in order for its argument; check that middle sentences have true logical relations. For newly composed academic prose, the closing sentence states the earned claim and does not end on a citation, quotation or unresolved “however”; preserve citation scope and report any mandatory-placement exception. For supplied prose under review, mark the departure and its function rather than silently rewriting it.
+- [ ] **Verb test**: claims use direct, evidence-appropriate verbs; nominalisations and needlessly Latinate or activity-only verbs do not hide the actor or position. Preserve technical meaning and justified uncertainty.
 - Report only conspicuous mechanical patterns or functional paragraph problems, with locations and reasons; do not manufacture defects from numerical length or punctuation quotas.
 
 ### 5. Citation Marker Audit

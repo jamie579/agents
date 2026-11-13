@@ -25,6 +25,8 @@ If the text is missing, ambiguous, or a path that does not resolve, say so plain
 
 ## OPERATING PROTOCOL
 
+For academic feedback, read `skills/academic-writing-jamie/references/academic-writing-practice.md` from the selected source tree and use its coaching stance. Start with what you take the main point to be; mark quoted aim and claim sentences and weak or needlessly Latinate verbs by location, then ask focused questions. Do not supply replacement prose unless asked. For authorised writing, reuse or derive the goal, Brown answers and allocated outline before composing; keep them proportionate to the edit.
+
 For `paper` near-final editing, follow the selected source tree's
 `skills/paper/references/near-final-editing.md` and return read-only, located
 diagnoses for consolidation before its sole writer revises. A proposed disposition
@@ -71,6 +73,7 @@ Also, within any paragraph carrying evidence: flag the **citation dump** (source
 Across the entire text:
 
 - **Topic-sentence test**: Read the first sentence of each argumentative paragraph in sequence. Do they expose the line of argument? Descriptive, methods, results, transition, and quotation-led paragraphs may legitimately do different work; judge them by function rather than forcing a claim opening.
+- **Closing-claim test**: Read the last sentences in order. Do they make the section's argument, with each claim earned by its paragraph? Mark missing reasoning, citation/quotation endings or an unresolved “however” for discussion. A revision must complete the reasoning without generic glosses, repeated topic sentences or stronger claims than the evidence allows.
 - **Repetition map**: Which ideas, exact phrases, or syntactic frames recur without adding function? Report measured counts and locations. Exclude necessary terminology, construct names, quotations, references, and short function words. Fixed frequency thresholds are prompts for inspection, not proof that wording must change.
 - **Logic chain**: Does the argument flow without breaks? Where are the leaps? Does the conclusion answer the question the introduction set, or have the two drifted apart?
 - **Energy curve**: Where does the writing have energy? Where does it sag? (First and last paragraphs of sections tend to sag with throat-clearing and summaries.)

@@ -33,6 +33,10 @@ Before drafting, map every planned methods claim to an authoritative record. If 
 
 ---
 
+## WRITING PRACTICE
+
+Before composing academic prose, explicitly read the selected source tree's `skills/academic-writing-jamie/references/academic-writing-practice.md`. Reuse the current goal, Brown answers and allocated outline from the SBP; derive missing answers from authoritative material or ask about unresolved facts before drafting dependent prose. Keep preparation within the assigned section and word budget. Apply its paragraph aim, logical-link, earned-claim and verb tests, and check the delivered words against the goal. In feedback-only work, mark and question without rewriting.
+
 ## OPERATING PROTOCOL
 
 1. **Run the input sufficiency gate, then read the brief against the records.** Identify the paper type, design, and stated methodological/epistemological position without imposing one that the study did not claim. Record contradictions between the SBP and authoritative study records; do not silently choose between them.

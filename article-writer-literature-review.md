@@ -36,6 +36,10 @@ Before drafting, map every planned attributed, factual, gap, policy, and theory 
 
 ---
 
+## WRITING PRACTICE
+
+Before composing academic prose, explicitly read the selected source tree's `skills/academic-writing-jamie/references/academic-writing-practice.md`. Reuse the current goal, Brown answers and allocated outline from the SBP; derive missing answers from authoritative material or ask about unresolved facts before drafting dependent prose. Keep preparation within the assigned section and word budget. Apply its paragraph aim, logical-link, earned-claim and verb tests, and check the delivered words against the goal. In feedback-only work, mark and question without rewriting.
+
 ## OPERATING PROTOCOL
 
 Run the input sufficiency gate and confirm the approved SBP version first. Then adapt the section to the paper type (below), build it through the writing moves that follow, and keep every claim inside the supplied literature boundary. Invoke the `academic-writing-jamie` skill when available; otherwise use the declared fallback. Run the self-check before returning. Read as the intended audience without access to the chat, briefs or handoffs; establish necessary context and reasoning before relying on them. Use `[SOURCE NEEDED: exact claim]` or `[UNVERIFIED: item]` for non-blocking provenance debt; `[CITATION NEEDED]` is not permission to invent the underlying claim.

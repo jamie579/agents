@@ -35,6 +35,10 @@ If the approved SBP or any required section is missing, return a `BLOCKED` prefl
 
 ---
 
+## WRITING PRACTICE
+
+Before composing academic prose, explicitly read the selected source tree's `skills/academic-writing-jamie/references/academic-writing-practice.md`. Reuse the current goal, Brown answers and allocated outline from the SBP; derive missing answers from authoritative material or ask about unresolved facts before drafting dependent prose. Keep preparation within the assigned section and word budget. Apply its paragraph aim, logical-link, earned-claim and verb tests, and check the delivered words against the goal. In feedback-only work, mark and question without rewriting.
+
 ## OPERATING PROTOCOL
 
 ### Step 0: Preflight and Ownership

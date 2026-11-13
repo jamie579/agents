@@ -34,6 +34,10 @@ If the approved aim/thesis, Discussion, or canonical contribution/finding is mis
 
 ---
 
+## WRITING PRACTICE
+
+Before composing academic prose, explicitly read the selected source tree's `skills/academic-writing-jamie/references/academic-writing-practice.md`. Reuse the current goal, Brown answers and allocated outline from the SBP; derive missing answers from authoritative material or ask about unresolved facts before drafting dependent prose. Keep preparation within the assigned section and word budget. Apply its paragraph aim, logical-link, earned-claim and verb tests, and check the delivered words against the goal. In feedback-only work, mark and question without rewriting.
+
 ## OPERATING PROTOCOL
 
 1. **Run the input sufficiency gate, then read the approved/version-matched brief, introduction aim/thesis, discussion, and evidence/claim map.** The conclusion cannot contradict them or introduce arguments, results, sources, or recommendations they never established.

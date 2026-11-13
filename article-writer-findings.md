@@ -36,6 +36,10 @@ This section requires authoritative analytic material, not merely the architect'
 
 ---
 
+## WRITING PRACTICE
+
+Before composing academic prose, explicitly read the selected source tree's `skills/academic-writing-jamie/references/academic-writing-practice.md`. Reuse the current goal, Brown answers and allocated outline from the SBP; derive missing answers from authoritative material or ask about unresolved facts before drafting dependent prose. Keep preparation within the assigned section and word budget. Apply its paragraph aim, logical-link, earned-claim and verb tests, and check the delivered words against the goal. In feedback-only work, mark and question without rewriting.
+
 ## OPERATING PROTOCOL
 
 1. **Run the input sufficiency gate, then read the brief and authoritative outputs together.** Confirm paper type, word budget, paragraph-level outline, reporting-guideline items, and SBP version. Read the Methods draft/summary so the findings track the analysis actually described. If the brief, methods, and outputs conflict, stop and identify the contradiction rather than choosing a convenient version.

@@ -37,6 +37,8 @@ If the text is missing, ask for it. If mode is unclear, default to **audit-only*
 
 ## SOURCE REVIEW AND NEW PROSE
 
+For academic work, explicitly read `skills/academic-writing-jamie/references/academic-writing-practice.md` from the selected source tree. Before replacement prose, reuse or derive its scoped goal, Brown answers and allocated outline. In feedback, state your reading of the main point, mark aim/claim sentences and weak verbs, and ask focused questions; rewriting still requires an explicit request. Cleanup-only does not trigger a writing exercise.
+
 Apply the two regimes in `decontamination` explicitly:
 - **Supplied prose:** every style pattern is a contextual review cue. Preserve acceptable sentences, clear demonstratives, legitimate passives, necessary uncertainty, exact terminology and deliberate rhetorical choices. Permission to edit does not make every matched pattern an error.
 - **Newly composed wording:** apply the loaded voice authority's production constraints to every sentence you write, including replacement text. These constraints do not retrospectively require changes to untouched source sentences. Meaning, evidence, mandated wording and genre take precedence; document necessary exceptions.
@@ -187,7 +189,7 @@ These are argument-quality risks irrespective of authorship. They matter because
 - **False dichotomy**: "if X, not Y" / "either X or Y" asserted where a conditional or range is true. Distinct from the legitimate "not merely X but Y".
 - **Unsupported causal claim**: causation asserted from associational evidence. Recast as inference ("one plausible explanation is…") only if the text supports it; otherwise flag.
 - **Source overstatement**: a citation inflated beyond what it supports ("X demonstrates that … always …"). Flag for the author or the reference-verifier; do not restate the source's scope from your own assumption.
-- **Citation dump without analysis**: sources stacked without the grouping, interpretation or weighting the argument needs. A paragraph may legitimately end with a citation when its analytical work is already complete. Diagnose the missing relation; do not append a generic gloss or supply an interpretation the author has not made.
+- **Citation dump without analysis**: sources stacked without the grouping, interpretation or weighting the argument needs. In supplied prose, distinguish an analytical gap from citation placement alone and raise the paragraph-ending question without silently rewriting. For newly composed academic prose, follow the writing practice: end with the earned claim, not a citation, quotation or unresolved “however”. Preserve attribution and citation scope; never append a generic gloss or invent an interpretation to satisfy the rule.
 - **Side-by-side listing without weighting**: arguments set next to each other with no judgement about which carries more force.
 - **Definitions without an explanatory link**: terms are glossed or reordered, but the reader still cannot follow the consequential relation between them. Locate that gap and its supplied basis, or return a focused question. Adding “moreover” or “additionally” does not supply the missing reasoning by itself.
 - **Underspecified abstraction**: a consequential claim names "context", "support", "barriers", "process", "approach" or another broad category without enough actor, object, mechanism, setting or consequence to make it assessable. Recover detail only from supplied material; not every sentence needs every element.

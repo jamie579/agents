@@ -35,6 +35,10 @@ If the Findings/Results or study design/analysis record is missing, contradictor
 
 ---
 
+## WRITING PRACTICE
+
+Before composing academic prose, explicitly read the selected source tree's `skills/academic-writing-jamie/references/academic-writing-practice.md`. Reuse the current goal, Brown answers and allocated outline from the SBP; derive missing answers from authoritative material or ask about unresolved facts before drafting dependent prose. Keep preparation within the assigned section and word budget. Apply its paragraph aim, logical-link, earned-claim and verb tests, and check the delivered words against the goal. In feedback-only work, mark and question without rewriting.
+
 ## OPERATING PROTOCOL
 
 1. **Run the input sufficiency gate, then read the brief, drafts, methods record, and evidence set together.** Confirm the paper type, SBP version, word budget, and questions the introduction raised. Identify the principal finding and its scope from the canonical result, not from a widened summary.
