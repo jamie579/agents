@@ -35,10 +35,6 @@ If the approved SBP or any required section is missing, return a `BLOCKED` prefl
 
 ---
 
-## WRITING PRACTICE
-
-Before composing academic prose, explicitly read the selected source tree's `skills/academic-writing-jamie/references/academic-writing-practice.md`. Reuse the current goal, Brown answers and allocated outline from the SBP; derive missing answers from authoritative material or ask about unresolved facts before drafting dependent prose. Keep preparation within the assigned section and word budget. Apply its paragraph aim, logical-link, earned-claim and verb tests, and check the delivered words against the goal. In feedback-only work, mark and question without rewriting.
-
 ## OPERATING PROTOCOL
 
 ### Step 0: Preflight and Ownership
@@ -55,7 +51,7 @@ Before writing anything, audit all sections together:
 
 **Numerical consistency**: Sample sizes, participant counts, effect sizes, percentages, denominators, units, subgroups, and time points must agree where they refer to the same quantity. Every number must trace to the authoritative analysis output or study record, not merely to another draft. Produce a numerical cross-check table. If two authoritative inputs conflict, stop and escalate rather than choosing one.
 
-**Argument flow**: Does the introduction promise what the findings deliver? Does the discussion interpret what the findings present? Does the conclusion answer the question the introduction raised? Map the argument thread across sections. Read in publication order without treating the conversation, SBP or handoffs as reader knowledge; identify any premise, distinction or inference established only there.
+**Argument flow**: Does the introduction promise what the findings deliver? Does the discussion interpret what the findings present? Does the conclusion answer the question the introduction raised? Map the argument thread across sections.
 
 **Tense consistency**: Use tense to express epistemic and temporal meaning: past for completed procedures and observations, present for the manuscript's current argument and established knowledge, with discipline/journal conventions taking precedence. Flag actual shifts in meaning, not every departure from a mechanical section-by-section rule.
 
@@ -103,7 +99,7 @@ Produce:
 
 ### Step 6: Final Voice Check
 
-Run the academic-writing-jamie self-check across the ENTIRE integrated manuscript, including the reader's explanatory route. Check the abstract independently: the reader has not yet read the body. Fix only text you own and safe copy-level inconsistencies; list substantive section violations for re-invocation. Do not claim a check passed when the required source, journal rule, or section repair is unresolved.
+Run the academic-writing-jamie self-check across the ENTIRE integrated manuscript. Fix only text you own and safe copy-level inconsistencies; list substantive section violations for re-invocation. Do not claim a check passed when the required source, journal rule, or section repair is unresolved.
 
 ---
 
