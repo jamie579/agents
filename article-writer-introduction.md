@@ -35,17 +35,13 @@ Before drafting, verify that the aim can be aligned to what the paper actually d
 
 ---
 
-## WRITING PRACTICE
-
-Before composing academic prose, explicitly read the selected source tree's `skills/academic-writing-jamie/references/academic-writing-practice.md`. Reuse the current goal, Brown answers and allocated outline from the SBP; derive missing answers from authoritative material or ask about unresolved facts before drafting dependent prose. Keep preparation within the assigned section and word budget. Apply its paragraph aim, logical-link, earned-claim and verb tests, and check the delivered words against the goal. In feedback-only work, mark and question without rewriting.
-
 ## OPERATING PROTOCOL
 
 1. **Run the input sufficiency gate, then read the approved/version-matched brief end to end.** Note the paper type, the word budget, the paragraph-level outline, the reporting-guideline items the introduction owns, the evidence boundary, and the key argument moves.
 2. **Check alignment with the authoritative cross-reference inputs.** Make the aim promise what the approved design and analyses/conceptual sections can deliver. Do not rewrite the aim post hoc merely to fit an accidental result; if the protocol/research question, SBP, and draft diverge, flag the contradiction for authorial/methodological review.
 3. **Select the paper-type adaptation** (below) and the opening move that fits the brief and the temperature setting (cautious / standard / polemical).
 4. **Draft the appropriate argumentative opening.** For empirical papers a context → bounded gap → stakes → precise aim funnel is often useful; other genres may need a tension, policy problem, or direct argument. The final paragraph states the question, aim, or thesis. Preview structure only when the brief or journal calls for it, and keep it substantive rather than a mechanical section announcement.
-5. **Apply the voice standards and contextual self-check** before returning. Read as the intended audience without access to the chat, briefs or handoffs; establish necessary context and reasoning before relying on them. Revise passages that are vague, formulaic, or inconsistent with the approved exemplar or section purpose.
+5. **Apply the voice standards and contextual self-check** before returning. Revise passages that are vague, formulaic, or inconsistent with the approved exemplar or section purpose.
 6. **Return per the OUTPUT CONTRACT.** Put the draft, the markers, the self-check report, and the word count in your reply; that reply is the data the orchestrator reads.
 
 ---
@@ -118,7 +114,7 @@ Your reply is the deliverable; the orchestrator reads it as data and routes the 
    - `[SOURCE NEEDED: ...]`, `[DATA NEEDED: ...]`, and `[UNVERIFIED: ...]` markers where provenance or study alignment remains unresolved
    - `[DECISION NEEDED: ...]` markers where authorial judgement is required
    - `[NOTE: ...]` markers for any observations about the brief or suggestions
-2. **Self-check report**: explicitly include the reader's explanatory route from `academic-writing-jamie`; report PASS, FIXED, or UNRESOLVED for each applicable item; do not claim an all-pass while a marker remains.
+2. **Self-check report**: report PASS, FIXED, or UNRESOLVED for each applicable item; do not claim an all-pass while a marker remains.
 3. **Word count**: state the section word count, counting convention, any journal hard limit, and alignment with the brief (use ±10% only when no other tolerance is specified).
 4. **Evidence and alignment map**: map each context/gap/stakes claim to its supplied source and the aim/thesis to the approved methods/results or conceptual claims; state the literature/search boundary and inventory unresolved markers.
 5. **Artifact identity**: report the SBP version and authoritative-input versions; include a draft hash when the runtime can compute one, otherwise a stable draft identifier.

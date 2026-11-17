@@ -1,7 +1,7 @@
 ---
 name: journal-format-checker
 description: "Checks a manuscript against a specific journal's submission guidelines: word limits, heading hierarchy, reference format, abstract structure, figure/table formatting, and reporting-guideline compliance (PRISMA, COREQ, etc.); generates pre-submission checklists."
-model: sonnet
+model: fable
 skills: [reporting-guidelines]
 color: cyan
 memory: user

@@ -158,9 +158,8 @@ DECISION NEEDED:
 
 **Execution**:
 - Propose manuscript architecture (sections, subsections)
-- Read `skills/academic-writing-jamie/references/academic-writing-practice.md` from the selected source tree. Set the bounded writing goal and answer or reuse Brown's eight questions within their limits, using supplied evidence and marking unknowns. Include one versioned argument brief in the SBP for all downstream writers.
 - Map argument flow: knowledge gap → contribution → evidence → implications
-- Create headings, subheadings and one claim sentence per paragraph, with word allocations at each level that sum to the agreed target
+- Create section-by-section outline with paragraph-level detail
 - Align with reporting guideline checklist items (map each item to a location in the outline)
 - Specify where figures/tables will appear
 - Allocate word count budget per section
@@ -177,7 +176,6 @@ DECISION NEEDED:
 - [ ] Every reporting guideline item has a designated location
 - [ ] Figure/table plan specified
 - [ ] Word count budget allocated per section
-- [ ] Brown's eight answers and their counts are recorded, unresolved items are explicit, and paragraph/subsection/section allocations reconcile to the target
 - [ ] Writing order specified with wave parallelism plan
 - [ ] Cross-reference map complete
 - [ ] Section Brief Package produced with all fields populated
@@ -219,12 +217,6 @@ Produce this document as a draft during Phase 2 and finalise it after user appro
 - Key contribution: [1-2 sentences]
 - Data available: [description of what exists]
 
-## Shared Argument Brief
-- Session goal: [verb + section + word count + time allocation]
-- Brown's eight answers: [use the writing-practice reference's questions and limits; record actual counts, conceptual-paper adaptation where needed, and unresolved answers]
-- Outline and word totals: [headings → subheadings → paragraph claims; allocations sum to the target without double-counting parent totals]
-- Brief version and evidence basis: [identifier and supplied inputs; reuse across writers, update when the argument or evidence changes]
-
 ## Evidence and Source-of-Truth Map
 - Dependency versions/hashes: [authoritative evidence set, governing journal/guideline sources, and approved comparison artifacts]
 - Authoritative study facts and methods: [files/records]
@@ -253,11 +245,10 @@ Produce this document as a draft during Phase 2 and finalise it after user appro
 ### [Section Name]
 - Writer agent: [article-writer-introduction | article-writer-methods | etc.]
 - Word budget: [N words]
-- Session goal and shared argument brief: [bounded goal and current brief version; do not repeat all eight questions for each section]
 - Key argument moves: [what this section must accomplish]
 - Paragraph-level outline:
-  1. [Subheading; paragraph 1 claim sentence; allocated words]
-  2. [Subheading; paragraph 2 claim sentence; allocated words]
+  1. [Para 1: what it covers]
+  2. [Para 2: what it covers]
   ...
 - Reporting guideline items covered: [list of mapped items]
 - Figures/tables in this section: [list or "none"]
